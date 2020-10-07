@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<title>Virtual Vacation - VirtualAdventurers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="layout3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+    
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 2px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button w3-font glow title zoom2">VirtualAdventurers</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button zoom nav-right">About</a>
+      <a href="#adventure" class="w3-bar-item w3-button zoom nav-right">Adventures</a>
+      <a href="#promotions" class="w3-bar-item w3-button zoom nav-right">Promotions</a>
+      <a href="#contact" class="w3-bar-item w3-button zoom nav-right">Contact</a>
+      <a href="#reviews" class="w3-bar-item w3-button zoom nav-right">Ratings</a>
+        
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content " style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="images/titlepicture.jpg" alt="A Person Looking At View At The Mountain" width="1920" height="500">
+  <div class="w3-display-bottomleft ">
+    <div class="w3-xxlarge">Adventure Virtually</div>
+      <center><h2>Experience real adventures virtually!</h2></center>
+  </div>
+</header>
+    
+<!--Dark Mode Option -->
+<center><p>Click the button to toggle between dark and light mode for this page.</p></center>
+<center><button onclick="myFunction()">Toggle dark mode</button></center>
+    
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small ">
+    <center><img src="images/aboutus.jpg" class="w3-round w3-image " alt="The Core Team of The Company" width="500" height="225"></center> 
+    </div>
+
+    <div class="w3-col m6 w3-padding-large ">
+      <h1 class="w3-center section glow">About VirtualAdventurers</h1><br>
+      <h5 class="w3-center zoom2">Founded since 2007</h5>
+      <p class="w3-large zoom2">VirtualAdventurers was founded in Argentina by Mr. Ong where he had a passion to allow people who are keen into going for extreme holiday adventures but do not have the chance to do so by creating a virtual vacation specifically for adventures and people to experience extreme adventures virtually instead of travelling to places for it. Most of the virtual holiday adventures found in the website are <span class="w3-tag w3-light-grey">extreme</span> adventures but are <span class="w3-tag">exicting</span> at the same time!.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium zoom2">VirtualAdventurers target is to have people to have extreme adventures at home by offering an unusual extreme holiday experience with tons of exicting adventures through a virtual reality simulation subscription! Not only that we often give <span class="w3-tag glow promo-color">good offers</span> for people that are interested to buy our subscription to use our virtual reality simulation keep an eye out on our <span class="w3-tag glow promo-color">promotion</span> section!</p>
+
+    </div>
+  </div>
+
+  <hr>
+  
+
+  <!-- Adventure Section -->
+
+  <div class="row" id="adventure">
+      <center><h1 class = "section glow">Our Virtual Adventures</h1><br></center>
+      <div class="column zoom">
+        
+        <img src="images/skiing.jpg" alt="Ski Picture" width ="200" height = "200">
+        <h3>Ski</h3>
+        <h4 class="price-font glow">Price: $60 / month</h4>
+      </div>
+      <div class="column zoom">
+          
+        <img src="images/mountainclimbing.jpg" alt="Mountain Climbing Picture" width ="200" height = "200">
+        <h3>Mountain Climbing</h3>
+        <h4 class="price-font glow">Price: $80 / month</h4>
+      </div>
+       <div class="column zoom">
+          
+          <img src="images/skydiving.jpg" alt="Skydiving Picture" width ="200" height = "200">
+          <h3>Skydiving</h3>
+          <h4 class="price-font glow">Price: $100 / month</h4>
+       </div>
+      
+      <div class="column zoom">
+        
+        <img src="images/diving.jpg" alt="Diving Picture" width ="200" height = "200">
+        <h3>Diving</h3>
+        <h4 class="price-font glow">Price: $60 / month</h4>
+      </div>
+      <div class="column zoom">
+          
+        <img src="images/flying%20fox.jpg" alt="Flying Fox Picture" width ="200" height = "200">
+        <h3>Flying Fox</h3>
+        <h4 class="price-font glow">Price: $90 / month</h4>
+      </div>
+       <div class="column zoom">
+          
+          <img src="images/rafting.jpg" alt="Rafting Picture" width ="200" height = "200">
+          <h3>Rafting</h3>
+          <h4 class="price-font glow">Price: $80 / month</h4>
+       </div>
+      
+  </div>
+
+ <hr>
+
+    
+ <!-- Promotion Section -->
+    <div class="row" id="promotions">
+      <center><h1 class = "section glow">Promotions</h1><br></center>
+    <div class="columns2">
+    <ul class="price2">
+    <li class="header glow">Package 1</li>
+    <li class="details">Ski</li>
+    <li class="details">Rafting</li>
+    <li class="details">Diving</li>
+    <li class="details">Flying Fox</li>
+    <li class="details">Sky Diving</li>
+    <li class="details">Mountain Climbing</li>
+    <li class="grey glow">$ 164.50 / 2 weeks</li>
+    </ul>
+    </div>
+
+  <div class="columns2">
+  <ul class="price2">
+    <li class="header glow">Package 2</li>
+    <li class="details">Ski</li>
+    <li class="details">Rafting</li>
+    <li class="details">Diving</li>
+    <li class="details">Flying Fox</li>
+    <li class="details">Sky Diving</li>
+    <li class="details">Mountain Climbing</li>
+    <li class="grey glow">$ 235.00 / month</li>
+    
+  </ul>
+</div>
+
+<div class="columns2">
+  <ul class="price2">
+    <li class="header glow">Package 3</li>
+    <li class="details">Ski</li>
+    <li class="details">Rafting</li>
+    <li class="details">Diving</li>
+    <li class="details">Flying Fox</li>
+    <li class="details">Sky Diving</li>
+    <li class="details">Mountain Climbing</li>
+    <li class="grey glow">$ 1692.00 / year</li>
+    
+  </ul>
+</div>
+</div>
+
+
+
+<hr>
+    
+  <!-- Contact Section -->
+
+  <div class="w3-container w3-padding-64 drop" id="contact">
+    <center><h1 class = "section glow">Contact Us</h1><br></center>
+    <center><p class="zoom2">We are avalaible from 10 am - 5 pm every weekday and 9 am - 7 pm during the the weekends for bookings.</p></center>
+    <p class="w3-text-blue-grey w3-large zoom2"><b>VirtualAdventurers Service, 48 Stocdale St, 43043 Argentina, US</b></p>
+    <center><p class="zoom2">You can also contact us by phone 0042131-1312 or email us at adventuresvirtually@gmail.com for any enquries, or you can send us a message here for enquiries we will get back to you!</p></center>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="tel" placeholder="Phone Number e.g. 601+42312" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email e.g. tc@gmail.com"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <center><p><button class="w3-button w3-light-grey w3-section" type="submit">SEND ENQUIRIES</button></p></center>
+    </form>
+  </div>
+
+
+<hr>
+    
+     <!-- Rating Section -->
+
+    <div class="row">
+        <center><h1 class = "section glow" id="reviews">Ratings</h1><br></center>
+
+    <div class="side">
+        <div>5 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+            <div class="bar-5"></div>
+        </div>
+    </div>
+    <div class="side right">
+        <div><span class="w3-tag glow promo-color">150</span></div>
+    </div>
+    <div class="side">
+        <div>4 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+            <div class="bar-4"></div>
+        </div>
+    </div>
+    <div class="side right">
+        <div>63</div>
+    </div>
+    <div class="side">
+        <div>3 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+            <div class="bar-3"></div>
+        </div>
+    </div>
+    <div class="side right">
+        <div>15</div>
+    </div>
+    <div class="side">
+        <div>2 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+            <div class="bar-2"></div>
+        </div>
+    </div>
+    <div class="side right">
+        <div>6</div>
+    </div>
+    <div class="side">
+        <div>1 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+            <div class="bar-1"></div>
+        </div>
+    </div>
+    <div class="side right">
+        <div>20</div>
+    </div>
+    </div>
+
+
+<!-- End page content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  
+    <h2 >Follow us for more updates!</h2>
+
+    <!-- Add font awesome icons -->
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+</footer>
+    
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+
+    
+</body>
+</html>
